@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>마이페이지 - OCREO</title>
-<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+
 <style>
 :root{
   --bg:#F7F7F7;
@@ -26,7 +26,7 @@
   --radius:8px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Pretendard',-apple-system,sans-serif;background:var(--bg);color:var(--text-main);min-height:100vh}
+body{font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif;background:var(--bg);color:var(--text-main);min-height:100vh}
 
 /* NAV */
 nav{background:var(--white);border-bottom:1px solid var(--border);height:60px;display:flex;align-items:center;padding:0 207px;position:sticky;top:0;z-index:100}
@@ -52,7 +52,7 @@ nav{background:var(--white);border-bottom:1px solid var(--border);height:60px;di
 /* SIDEBAR */
 .sidebar{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--border);overflow:hidden}
 .sidebar-nav{list-style:none}
-.sidebar-nav li button{width:100%;text-align:left;padding:14px 20px;font-size:14px;font-weight:400;font-family:'Pretendard',-apple-system,sans-serif;color:var(--text-mid);background:none;border:none;cursor:pointer;border-left:3px solid transparent;transition:all .15s}
+.sidebar-nav li button{width:100%;text-align:left;padding:14px 20px;font-size:14px;font-weight:400;font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif;color:var(--text-mid);background:none;border:none;cursor:pointer;border-left:3px solid transparent;transition:all .15s}
 .sidebar-nav li button:hover{color:var(--primary);background:#FAFAFA}
 .sidebar-nav li button.active{color:var(--primary);font-weight:700;border-left-color:var(--accent);background:#FAFBFE}
 
@@ -107,7 +107,7 @@ nav{background:var(--white);border-bottom:1px solid var(--border);height:60px;di
 .rcd-value{font-size:13px;color:var(--text-main);font-weight:500}
 .rcd-value.accent{color:var(--accent);font-weight:700}
 .receipt-card-footer{display:flex;justify-content:flex-end;padding:12px 20px;border-top:1px solid #F0F2F8;background:var(--white);gap:8px}
-.btn-sm{font-size:12px;font-weight:600;font-family:'Pretendard',-apple-system,sans-serif;padding:6px 14px;border-radius:4px;cursor:pointer;border:none;transition:background .15s}
+.btn-sm{font-size:12px;font-weight:600;font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif;padding:6px 14px;border-radius:4px;cursor:pointer;border:none;transition:background .15s}
 .btn-sm-outline{background:none;border:1px solid var(--border);color:var(--text-sub)}
 .btn-sm-outline:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-light)}
 .btn-sm-primary{background:var(--primary);color:#fff}
@@ -153,7 +153,7 @@ nav{background:var(--white);border-bottom:1px solid var(--border);height:60px;di
 .tl-title{font-size:13px;font-weight:600;color:var(--text-main);margin-bottom:2px}
 .tl-date{font-size:11.5px;color:var(--text-hint)}
 .drawer-footer{padding:20px 24px;border-top:1px solid var(--border);display:flex;gap:8px}
-.drawer-footer button{flex:1;padding:12px;font-size:13.5px;font-weight:700;font-family:'Pretendard',-apple-system,sans-serif;border-radius:4px;cursor:pointer;border:none}
+.drawer-footer button{flex:1;padding:12px;font-size:13.5px;font-weight:700;font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif;border-radius:4px;cursor:pointer;border:none}
 .df-secondary{background:#F5F5F5;color:var(--text-sub)}
 .df-primary{background:var(--primary);color:#fff}
 
@@ -163,11 +163,11 @@ footer{background:#000;padding:50px 76px;margin-top:40px}
 .footer-logo-wrap{width:80px;flex-shrink:0;margin-right:10px}
 .footer-text-col{display:flex;flex-direction:column;gap:10px;flex:1}
 .footer-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.footer-info{font-size:14px;color:#999;font-family:'Pretendard',-apple-system,sans-serif}
+.footer-info{font-size:14px;color:#999;font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif}
 .footer-divider{width:1px;height:10px;background:#999;flex-shrink:0}
-.footer-sub{font-size:14px;color:#999;font-family:'Pretendard',-apple-system,sans-serif;margin-top:4px}
+.footer-sub{font-size:14px;color:#999;font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif;margin-top:4px}
 .footer-lang{height:34px;display:flex;align-items:center;padding:0 10px 0 6px;border-radius:4px;border:1px solid #999;cursor:pointer;flex-shrink:0;background:none}
-.footer-lang-text{font-size:13px;color:#fff;font-family:'Pretendard',-apple-system,sans-serif;margin-left:6px}
+.footer-lang-text{font-size:13px;color:#fff;font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif;margin-left:6px}
 
 @media(max-width:1100px){
   nav,.page-banner{padding:0 24px!important}
@@ -180,6 +180,55 @@ footer{background:#000;padding:50px 76px;margin-top:40px}
   .receipt-card-body{grid-template-columns:1fr 1fr}
   .drawer{width:100%}
 }
+
+/* ===== OCREO 디자인 시스템 맞춤 (Figma OCREO 디자인 Foundation 기준) ===== */
+@font-face{font-family:'NanumSquare Neo';font-weight:300;font-display:swap;src:url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff) format('woff')}
+@font-face{font-family:'NanumSquare Neo';font-weight:400;font-display:swap;src:url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format('woff')}
+@font-face{font-family:'NanumSquare Neo';font-weight:500;font-display:swap;src:url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format('woff')}
+@font-face{font-family:'NanumSquare Neo';font-weight:600;font-display:swap;src:url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format('woff')}
+@font-face{font-family:'NanumSquare Neo';font-weight:700;font-display:swap;src:url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format('woff')}
+@font-face{font-family:'NanumSquare Neo';font-weight:800;font-display:swap;src:url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format('woff')}
+@font-face{font-family:'NanumSquare Neo';font-weight:900;font-display:swap;src:url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff) format('woff')}
+
+:root{--red:#FF003D;--radius:4px;--shadow:none;--shadow-md:none;--border:#F0F0F0}
+body,input,select,textarea,button{font-family:'NanumSquare Neo',-apple-system,'Apple SD Gothic Neo',sans-serif}
+.page-banner h2{font-size:22px;font-weight:800}
+.sidebar,.app-list,.receipt-card{box-shadow:none;border:1px solid #F0F0F0;border-radius:4px}
+.sidebar-nav li button:hover{background:#F7F7F7}
+.sidebar-nav li button.active{border-left-color:#000;background:#F7F7F7}
+@media(max-width:1100px){.sidebar-nav li button.active{border-bottom-color:#000}}
+/* 섹션 제목: 파란 막대 없이 Emphasis 3 (16/700) */
+.section-header h3{font-size:16px;line-height:22px}
+.section-header h3::before{display:none}
+.app-item,.receipt-card-header{border-bottom-color:#F0F0F0}
+.app-item:hover,.receipt-card-header:hover{background:#F7F7F7}
+.receipt-card-body{background:#F7F7F7}
+.receipt-card-footer{border-top-color:#F0F0F0}
+/* 상태 배지: Label 컴포넌트 (10/700, 라운드 2) 검정 채움 = 완료, 검정 테두리 = 진행 중, 회색 = 취소 */
+.badge{font-size:10px;font-weight:700;padding:3px 6px;border-radius:2px;gap:2px}
+.badge-blue,.badge-orange,.badge-purple{background:#fff;color:#000;box-shadow:inset 0 0 0 1px #000}
+.badge-green{background:#000;color:#fff}
+.badge-red,.badge-gray{background:#F0F0F0;color:#000;box-shadow:inset 0 0 0 1px #000}
+.btn-sm{font-weight:500}
+.btn-sm-outline{border:1px solid #000;color:#000}
+.btn-sm-outline:hover{border-color:#000;color:#000;background:#F2F2F2}
+.btn-sm-primary:hover{background:#191919}
+.btn-sm-accent{background:#F0F0F0;color:#000}
+.btn-sm-accent:hover{background:#E6E6E6}
+/* 신청 기간 안내: 회색 박스 */
+.notice-banner{background:#F7F7F7;border:0;border-radius:4px}
+.notice-banner .nb-text{color:#4D4D4D}
+.notice-banner .nb-text strong{color:#000}
+.empty-state{border:1px dashed #CCCCCC;border-radius:4px}
+.drawer-section-title{font-size:16px;font-weight:700;color:#000;text-transform:none;letter-spacing:0}
+.drawer-row{border-bottom-color:#F0F0F0}
+.dr-label{color:#666}
+.tl-dot.done{background:#000}
+.tl-dot.pending{background:#F0F0F0;color:#999;box-shadow:inset 0 0 0 1px #999}
+.tl-item:not(:last-child)::before{background:#F0F0F0}
+.df-secondary{background:#F0F0F0;color:#000;font-weight:500}
+.df-primary{font-weight:500}
+
 </style>
 </head>
 <body>
